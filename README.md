@@ -16,7 +16,7 @@
 
 ## Introduction
 
-In this exercise you will ...
+In this exercise you will learn how to declare and use Javascript variables
 
 ## Setup
 
@@ -28,7 +28,8 @@ In this exercise you will ...
 ## Instructions
 
 - Read through the numbered comments in the following files to understand the requirements of this exercise.
-  - `src/<file>.js`
+  - `src/declaration.js`
+  - `src/assignment.js`
 
 - Write your code directly below the numbered comment.
 
@@ -40,7 +41,7 @@ In this exercise you will ...
 
 - To verify your solutions, run the test suite by running the `npx jasmine` command followed by the path to the corresponding test file for each `src/*.js` file above, eg:
 
-    `npx jasmine spec/<file>.spec.js`
+    `npx jasmine spec/declaration.spec.js`
 
 - Alternatively, run `npm test`
 
@@ -57,9 +58,10 @@ In this exercise you will ...
 - Extension exercises can be found in the `src/extensions` directory with corresponding tests in the `spec/extensions` directory.
 
 - Follow the instructions in the following files to complete the extensions.
+  - TODO: src/extensions/<file>.js
 
 - To run the tests for the extensions, you can either run spec files individually as follows:
 
-  `npx jasmine extensions/<file>.spec.js`
+  `npx jasmine spec/extensions/<file>.spec.js`
 
 - Alternatively, run `npm run test-extensions`
