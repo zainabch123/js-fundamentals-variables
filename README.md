@@ -41,9 +41,11 @@ In this exercise you will learn how to declare and use Javascript variables
 
 - To verify your solutions, run the test suite by running the `npx jasmine` command followed by the path to the corresponding test file for each `src/*.js` file above, eg:
 
-    `npx jasmine spec/declaration.spec.js`
+  `npx jasmine spec/declaration.spec.js`
 
-- Alternatively, run `npm test`
+- Alternatively, run:
+
+  `npm test`
 
 - To begin with, almost all of the tests will fail - example tests, if they exist, will pass with a green `.` You'll see many red `F`s in your console, like the image below:
 
@@ -64,4 +66,6 @@ In this exercise you will learn how to declare and use Javascript variables
 
   `npx jasmine spec/extensions/<file>.spec.js`
 
-- Alternatively, run `npm run test-extensions`
+- Alternatively, run:
+
+  `npm run test-extensions`
