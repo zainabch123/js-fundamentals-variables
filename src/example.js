@@ -1,7 +1,7 @@
 // do not edit this section
 let count = 10
 
-// TODO: Declare the variable city so that the tests pass. Update the value
+// TODO: 1. Declare the variable city so that the tests pass. Update the value
 // of count so the tests pass.
 count = 100
 const city = 'Tokyo'
