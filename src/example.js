@@ -14,5 +14,5 @@ try {
 
 module.exports = {
   a: count,
-  b: city
+  b: cityExport
 }
