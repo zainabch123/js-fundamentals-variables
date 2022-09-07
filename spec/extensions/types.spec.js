@@ -2,7 +2,7 @@ const answers = require('../../src/extensions/types.js')
 
 describe('variable types', () => {
   it('pickMe', () => {
-    expect(answers.pickMe.toBe('Pick me!'))
+    expect(answers.pickMe).toBe('Pick me!')
   })
   it('imTrue', () => {
     expect(answers.imTrue).toBe(true)
@@ -26,10 +26,10 @@ describe('variable types', () => {
     expect(answers.imFalse).toBe(false)
   })
   it('imBigInt', () => {
-    expect(answers.imBigInt).toBe(1000000n)
+    expect(answers.imBigInt).toBe(10000000n)
   })
   it('imUndefined', () => {
-    expect(answers.imFalse).toBe(undefined)
+    expect(answers.imUndefined).toBe(undefined)
   })
   it('imNull', () => {
     expect(answers.imNull).toBe(null)
