@@ -1,4 +1,4 @@
-name: JS Fundamentals Functions 2 Tests
+name: JS Fundamentals Variables Tests
 on:
   pull_request:
     branches: [ main ]
