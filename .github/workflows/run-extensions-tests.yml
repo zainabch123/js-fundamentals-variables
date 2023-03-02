@@ -1,4 +1,4 @@
-name: JS Fundamentals Variables Tests
+name: JS Fundamentals Variables Extensions Tests
 on:
   pull_request:
     branches: [ main ]
@@ -15,4 +15,4 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
-      - run: npm test
+      - run: npm run test-extensions
