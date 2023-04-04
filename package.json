@@ -8,7 +8,6 @@
     "test-all": "npx jasmine --config=spec/support/all-jasmine.json",
     "test-extensions": "npx jasmine --config=spec/support/extensions-jasmine.json",
     "prepare": "husky install",
-    "develop": "jasmine"
   },
   "author": "",
   "license": "ISC",
