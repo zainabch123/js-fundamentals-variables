@@ -7,9 +7,9 @@
     "test": "npx jasmine",
     "test-all": "npx jasmine --config=spec/support/all-jasmine.json",
     "test-extensions": "npx jasmine --config=spec/support/extensions-jasmine.json",
-    "prepare": "husky install",
+    "prepare": "husky install"
   },
-  "author": "",
+  "author": "dearshrewdwit",
   "license": "ISC",
   "prettier": "@boolean-uk/boolean-prettier-config",
   "devDependencies": {
