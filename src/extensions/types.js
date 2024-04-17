@@ -35,7 +35,8 @@ function pick(n) {
 }
 
 // 1. Pick true using the pick function - by changing 0 to pick your answer
-const imTrue = pick(0)
+const imTrue = pick(9)
+
 
 // 2. Pick a real number
 const aReal = pick(0)
