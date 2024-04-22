@@ -35,44 +35,44 @@ function pick(n) {
 }
 
 // 1. Pick true using the pick function - by changing 0 to pick your answer
-const imTrue = pick(9);
-console.log(imTrue);
+const imTrue = pick(9)
+console.log(imTrue)
 
 // 2. Pick a real number
-const aReal = pick(4);
-console.log(aReal);
+const aReal = pick(4)
+console.log(aReal)
 
 // 3. Pick a string
-const aString = pick(6);
-console.log(aString);
+const aString = pick(6)
+console.log(aString)
 
 // 4. Pick an array
-const anArray = pick(7);
-console.log(anArray);
+const anArray = pick(7)
+console.log(anArray)
 
 // 5. Pick a (simple) number
-const aNumber = pick(3);
-console.log(aNumber);
+const aNumber = pick(3)
+console.log(aNumber)
 
 // 6. Pick an object
-const anObject = pick(8);
-console.log(anObject);
+const anObject = pick(8)
+console.log(anObject)
 
 // 7. Pick false
-const imFalse = pick(10);
-console.log(imFalse);
+const imFalse = pick(10)
+console.log(imFalse)
 
 // 8. Pick a BigInt
-const imBigInt = pick(5);
-console.log(imBigInt);
+const imBigInt = pick(5)
+console.log(imBigInt)
 
 // 9. Pick undefined
-const imUndefined = pick(2);
-console.log(imUndefined);
+const imUndefined = pick(2)
+console.log(imUndefined)
 
 // 10. Pick null
-const imNull = pick(1);
-console.log(imNull);
+const imNull = pick(1)
+console.log(imNull)
 
 // Do not edit below this line
 module.exports = {
